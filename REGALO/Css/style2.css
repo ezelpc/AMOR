@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+    
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #292929, #191919);
+    overflow: hidden;
+    overflow-y: scroll;
+     /* Agrega una barra de desplazamiento vertical solo cuando sea necesario */
+            
+}
+    
+    
+
+.background-images {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: ;
+    background-position: center;
+    background-image: url("../Imagenes/heart-1192662_1920.jpg");
+    opacity:50px;
+}
+section {
+    position: relative;
+    max-width: 600x;
+    background-color: transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+h1 {
+    font-size: 2rem;
+    color: black;
+    
+    }
+    .inputbox {
+        position: relative;
+        margin: 30px 0;
+        max-width: 500px;
+        color: black;
+       
+    }
+p {
+    text-align: center;
+}
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.4s ease;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
